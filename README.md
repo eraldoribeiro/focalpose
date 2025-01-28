@@ -31,7 +31,12 @@ python setup.py build
 python setup.py install
 ```
 
-To download the data run `bash download_data.sh`. This will download all the files 
+To download the data run:
+```bash
+cd ..
+bash download_data.sh
+```
+This will download all the files 
 except for the CompCars and texture datasets. For CompCars, please follow [these](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/instruction.txt) instructions
 and download the full `.zip` archive named `CompCars.zip` into `local_data` directory. Same needs to be done for the texture dataset
 which can be found at [this link](https://drive.google.com/file/d/1Xg8ODMH0k6EZLYFvQ72FF14uQ7uOitpG/view?usp=sharing). After all files are downloaded, just run
